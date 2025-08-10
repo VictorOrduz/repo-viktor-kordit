@@ -11,8 +11,10 @@ crea un juego en el que la computadora elige un numero al azar entre 1 y 100 y e
 """
 from random import randint
 
-numero_secreto = randint
+numero_secreto = randint(1, 100)
 
 numero = int(input("ingrese un numero: "))
+
+print(F"el numero secreto es: {numero_secreto}, y el numero digitado es: {numero}")
 
 contador = 1
