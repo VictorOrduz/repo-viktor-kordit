@@ -18,3 +18,5 @@ numero = int(input("ingrese un numero: "))
 print(F"el numero secreto es: {numero_secreto}, y el numero digitado es: {numero}")
 
 contador = 1
+
+# comenzar con el bucle infinito
