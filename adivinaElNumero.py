@@ -13,8 +13,15 @@ from random import randint
 
 numero_secreto = randint(1, 100)
 
-numero = int(input("ingrese un numero: "))
-
-print(F"el numero secreto es: {numero_secreto}, y el numero digitado es: {numero}")
-
 contador = 1
+
+while True:
+    numero = int(input("ingrese un numero entre 1 y 100: "))
+    if 0 < numero <= 100:
+        if numero < numero_secreto:
+            print("El numero que ingresaste es menor al numero secreto")
+        else:
+            print("ingrese un numero valido")
+    else:
+        print("ingrese un numero valido")
+        
