@@ -9,6 +9,7 @@ crea un juego en el que la computadora elige un numero al azar entre 1 y 100 y e
 5. compara el numero del usuario con el numero secreto y da una pista ('demasiado alto', 'demasiado bajo')
 6. si el usuario adivina, imprime un mensaje de felicitacion y termina el bucle
 """
+# importamos randit de la libreria random, para que python nos escoja un numero al azar
 from random import randint
 
 numero_secreto = randint(1, 100)
@@ -26,4 +27,5 @@ while True:
             print("ingrese un numero valido")
     else:
         print("ingrese un numero valido")
+
         
