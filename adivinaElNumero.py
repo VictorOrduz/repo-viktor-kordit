@@ -15,6 +15,8 @@ numero_secreto = randint(1, 100)
 
 contador = 1
 
+# comenzar con el bucle infinito
+
 while True:
     numero = int(input("ingrese un numero entre 1 y 100: "))
     if 0 < numero <= 100:
